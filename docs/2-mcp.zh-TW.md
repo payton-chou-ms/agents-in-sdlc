@@ -182,6 +182,8 @@ MCP 伺服器配置定義在 **mcp.json** 檔案的 **servers** 區段中。每�
 
 ![在 GitHub 中建立的議題範例](images/github-issues-created.png)
 
+Tips: 可以在 GitHub Pull Requests 的界面中, 看到目前的 Pull Requests 與 Issues 狀態
+![GitHub Pull Requests 的界面](./images/github-pull-request-view.png)
 ## 總結與下一步
 
 恭喜，您已經使用 Copilot Chat 和 MCP 在 GitHub 上建立了議題！
@@ -203,6 +205,11 @@ MCP 伺服器配置定義在 **mcp.json** 檔案的 **servers** 區段中。每�
 您可以在 [Playwright MCP 存儲庫][playwright-mcp-server] 中找到安裝和配置 Playwright MCP 伺服器的指示。
 
 請注意，設定過程與 GitHub MCP 伺服器類似，但您不需要提供任何憑證，如 GitHub 個人存取權杖。這是因為 Playwright MCP 伺服器不需要驗證來存取其功能。
+
+### Install playwright
+- Install: 
+- Prompt: use playwright to test run
+
 
 ## 資源
 
