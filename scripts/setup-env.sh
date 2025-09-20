@@ -33,9 +33,12 @@ if command -v uv >/dev/null 2>&1; then
     echo "uv already installed at: $(command -v uv)"
 else
     echo "uv not found — installing via astral.sh installer..."
-    curl -LsSf https://astral.sh/uv/install.sh | sh || {
+    UV_INSTALLER_TMP=$(mktemp)
+    curl -LsSf https://astral.sh/uv/install.sh -o "$UV_INSTALLER_TMP" && \
+    sh "$UV_INSTALLER_TMP" || {
         echo "Warning: uv installation failed" >&2
     }
+    rm -f "$UV_INSTALLER_TMP"
 fi
 
 # Make sure ~/.local/bin is in PATH for this script/session
