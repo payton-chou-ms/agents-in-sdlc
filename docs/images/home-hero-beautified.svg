@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="768" viewBox="0 0 1440 768" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tailspin Toys – Beautified Home Hero</title>
+  <desc id="desc">A polished dark-mode hero with a vibrant top app bar, heading, subtitle, featured games title, and a 3 by 2 grid of rounded game cards with soft shadows.</desc>
+  <defs>
+    <!-- Background gradient and glows -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1024"/>
+      <stop offset="100%" stop-color="#0A1B2F"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 80) rotate(45) scale(520 260)">
+      <stop stop-color="#2563EB" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 220) rotate(15) scale(620 360)">
+      <stop stop-color="#9333EA" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#9333EA" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- App bar gradient -->
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <!-- Card subtle gradient and shadow -->
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1222"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Link arrow marker -->
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+
+    <style>
+      .text-title { font: 800 56px/1.1 Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; fill: #F8FAFC; letter-spacing: 0.2px; }
+      .text-sub   { font: 400 22px/1.5 Inter, ui-sans-serif, system-ui; fill: #CBD5E1; }
+      .text-h2    { font: 700 26px/1.2 Inter, ui-sans-serif, system-ui; fill: #E5E7EB; }
+      .card-title { font: 700 22px/1.3 Inter, ui-sans-serif, system-ui; fill: #F3F4F6; }
+      .card-body  { font: 400 14.5px/1.5 Inter, ui-sans-serif, system-ui; fill: #9CA3AF; }
+      .link       { font: 600 15px/1.4 Inter, ui-sans-serif, system-ui; fill: #93C5FD; }
+      .brand      { font: 700 18px/1 Inter, ui-sans-serif, system-ui; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1440" height="768" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1440" height="768" fill="url(#glow1)"/>
+  <rect x="0" y="0" width="1440" height="768" fill="url(#glow2)"/>
+
+  <!-- Top App Bar -->
+  <g>
+    <rect x="0" y="0" width="1440" height="72" fill="url(#bar)"/>
+    <!-- subtle bottom divider -->
+    <rect x="0" y="71" width="1440" height="1" fill="#1F2A60" opacity="0.6"/>
+    <!-- hamburger icon -->
+    <g transform="translate(24, 26)" stroke="#E0E7FF" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+      <line x1="0" y1="0" x2="20" y2="0"/>
+      <line x1="0" y1="8" x2="20" y2="8"/>
+      <line x1="0" y1="16" x2="20" y2="16"/>
+    </g>
+    <!-- brand -->
+    <text class="brand" x="64" y="44">Tailspin Toys</text>
+  </g>
+
+  <!-- Hero copy -->
+  <g transform="translate(64, 140)">
+    <text class="text-title">Welcome to Tailspin Toys</text>
+    <text class="text-sub" y="64" dy="30">Find your next game! And maybe even back one! Explore our collection!</text>
+  </g>
+
+  <!-- Featured header -->
+  <text class="text-h2" x="64" y="260">Featured Games</text>
+
+  <!-- Cards grid -->
+  <g id="cards" transform="translate(0, 0)">
+    <!-- helper for creating cards: function-like groups -->
+    <!-- Row 1 -->
+    <g transform="translate(64, 290)" filter="url(#cardShadow)">
+      <rect width="400" height="180" rx="18" fill="url(#cardFill)" stroke="#1F2937"/>
+      <g transform="translate(20, 20)">
+        <text class="card-title">DevOps Dominion</text>
+        <text class="card-body" y="28" dy="22">In DevOps Dominion, strategic planning meets advanced deployment tactics in a fast-paced...</text>
+        <g transform="translate(0, 128)">
+          <text class="link">View details →</text>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(504, 290)" filter="url(#cardShadow)">
+      <rect width="400" height="180" rx="18" fill="url(#cardFill)" stroke="#1F2937"/>
+      <g transform="translate(20, 20)">
+        <text class="card-title">Pipeline Conquest</text>
+        <text class="card-body" y="28" dy="22">Pipeline Conquest challenges players to optimize continuous integration workflows while counterin...</text>
+        <g transform="translate(0, 128)">
+          <text class="link">View details →</text>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(944, 290)" filter="url(#cardShadow)">
+      <rect width="400" height="180" rx="18" fill="url(#cardFill)" stroke="#1F2937"/>
+      <g transform="translate(20, 20)">
+        <text class="card-title">Server Siege</text>
+        <text class="card-body" y="28" dy="22">Server Siege throws you into the midst of a digital fortress under siege by relentless cyber threat...</text>
+        <g transform="translate(0, 128)">
+          <text class="link">View details →</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(64, 500)" filter="url(#cardShadow)">
+      <rect width="400" height="180" rx="18" fill="url(#cardFill)" stroke="#1F2937"/>
+      <g transform="translate(20, 20)">
+        <text class="card-title">Repo Rulers</text>
+        <text class="card-body" y="28" dy="22">Repo Rulers demands razor-sharp tactics and agile repository management to dominate the board...</text>
+        <g transform="translate(0, 128)">
+          <text class="link">View details →</text>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(504, 500)" filter="url(#cardShadow)">
+      <rect width="400" height="180" rx="18" fill="url(#cardFill)" stroke="#1F2937"/>
+      <g transform="translate(20, 20)">
+        <text class="card-title">Code Puzzle Chronicles</text>
+        <text class="card-body" y="28" dy="22">Brain-teasing challenges that unravel cryptic algorithms while maintaining elegant design...</text>
+        <g transform="translate(0, 128)">
+          <text class="link">View details →</text>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(944, 500)" filter="url(#cardShadow)">
+      <rect width="400" height="180" rx="18" fill="url(#cardFill)" stroke="#1F2937"/>
+      <g transform="translate(20, 20)">
+        <text class="card-title">Merge Conflict Mystery</text>
+        <text class="card-body" y="28" dy="22">Enter a labyrinth of code merges where every puzzle piece must align to ship with confidence...</text>
+        <g transform="translate(0, 128)">
+          <text class="link">View details →</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Soft vignette -->
+  <rect x="0" y="0" width="1440" height="768" fill="#000" opacity="0.12" style="mix-blend-mode:multiply"/>
+</svg>

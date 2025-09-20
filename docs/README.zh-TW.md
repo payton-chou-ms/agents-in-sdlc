@@ -17,6 +17,7 @@ GitHub Copilot 最近新增的功能為開發者在整個軟體開發生命週�
 3. [透過使用自定義指令、提示檔案和聊天參與者為 Copilot 提供上下文](./3-custom-instructions.zh-TW.md)。
 4. [在 Copilot 代理模式的幫助下完成全站更新](./4-copilot-agent-mode-vscode.zh-TW.md)。
 5. [審查 Copilot 編碼代理的工作](./5-reviewing-coding-agent.zh-TW.md)以確保一切看起來都很好！
+6. [使用 Spec-kit 與 Copilot Coding Agent](./6-using-spec-kit-with-coding-agent.zh-TW.md) 整合需求規格與開發流程。
 
 ## 情境
 

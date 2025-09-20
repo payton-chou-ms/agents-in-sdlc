@@ -178,6 +178,21 @@ Copilot 現在正在勤奮地處理您的第二個請求！Copilot 編碼代理�
 
 隨著編碼代理在後台勤奮工作，我們現在可以將注意力轉向我們的下一課，[使用 MCP 伺服器與外部服務互動][next-lesson]。[Copilot 編碼代理也可以使用 MCP 伺服器][coding-agent-mcp]，但我們將切換回我們的 Codespace，並嘗試將 MCP 與 Copilot 代理模式一起使用。
 
+## 延伸應用
+由於有 Coding Agent, 我們可以更容易的使用 Vibe Coding, 想要快速有個想法, 可以使用以下方式
+
+透過 copilot chat的delagate coding agent, 直接在產生 UI 設計的 idea.
+Ex:
+```
+幫我產生另一個更美化版本的圖片, 參考 #tailspin-toys-screenshot.png
+```
+
+Ex:
+```
+幫我產生另一個小型程式在另一個資料夾, 想要有類似
+```
+
+
 ## 資源
 
 - [關於 Copilot 編碼代理][copilot-agents]
