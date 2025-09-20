@@ -201,6 +201,58 @@
 
 接下來，我們將使用[代理模式為網站添加功能][next-lesson]。
 
+## 延伸應用
+
+本章介紹如何將自定義指令與 Copilot Chat 更進階地結合於真實工作流程中，包含文件生產、Prompt 與指令檔案建立、工具集限制、聊天模式設定，以及推薦工具集。每一節都提供為團隊實作的具體建議與最佳實務，便於在專案中重複使用。
+
+### 產生本機程式碼的最佳實踐文件
+- 目的：將專案或團隊的實作慣例以「可機器讀取且可修改」的文件形式保存，讓 Copilot 在生成本機程式碼時能一貫遵循
+- 實作步驟：
+   1. 使用 Copilot Chat 右上角的 "Configure Chat..." -> "Generate Instructions"
+   2. Review 產生的結果, 並加入 .github/copilot-instructions.md 中
+![custom-instructions-ui](./images/custom-instructions-ui.png)
+
+### 產生 Prompt Files
+- 目的：建立可複用的 prompt 模板或範本檔（例如 .prompt.md），以便團隊成員在 Copilot Chat 中快速引用或修改
+- 範例用途：
+   - 產生 Cloud-native 實作說明（Kubernetes 資源範本、Helm 範例）
+   - 建立 API 端點模板、Svelte 元件骨架
+- 實作步驟：
+   1. 使用 Copilot Chat 右上角的 "Configure Chat..." -> "Prompt Files" -> "New prompt files" -> ".github/prompts/"，將常用 prompt 儲存為明確命名的檔案（例如 cloud-native.prompt.md）
+   2. 在 prompt 中包含 context、輸入範例、輸出期望與驗收準則。
+   3. 在 Copilot Chat 使用「Add Context」功能時，載入相應 prompt 檔案。
+- 提示：為不同複雜度提供多個 prompt（基本/進階/測試），並在檔案頂端註明 applyTo 規則以便自動套用
+
+### 產生 Instruction（指令檔案）
+- 目的：針對常見任務或檔案類型建立 *.instructions.md，確保 Copilot 在編輯時自動採納團隊標準。
+- 建議內容：
+   - applyTo 規則（檔案路徑或副檔名過濾）
+   - 必要步驟與驗收標準（包含測試要求）
+   - 參考實作檔案或測試樣板連結
+- 實作步驟：
+   1. 使用 Copilot Chat 右上角的 "Configure Chat..." -> "Instructions" -> "New instruction files" -> ".github/instructions/"，將常用 instruction 儲存為明確命名的檔案（例如 csharp.instructions.md）
+   2. 在 instruction 裡放入範例程式碼片段與測試範例連結，加速 Copilot 生成符合模式的程式
+   3. 測試：在 Copilot Chat 中為符合 applyTo 的檔案觸發編輯，驗證生成內容符合標準
+- 提示：保留一節「常見錯誤與修正」供 Copilot 在生成後自動檢查與修正
+
+### 限定 Tool Sets 範圍
+- 目的：明確告知 Copilot 在建議中應使用的 MCP Tool
+- 實作步驟：
+   1. 使用 Copilot Chat 右上角的 "Configure Chat..." -> "Tool Sets" -> "Create new tool sets files"
+   2. 在 Configure Tool裡面選擇你的tool set config
+![Toolset-1](./images/toolset-1.png)
+![Toolset-2](./images/toolset-2.png)
+
+### 設定 Chat Mode
+- 目的：根據任務選擇合適的 Copilot Chat 模式（Ask、Edit、Explain、Agent 等），以取得最有效率的互動結果
+- 實作步驟：
+   1. 使用 Copilot Chat 右上角的 "Configure Chat..." -> "Modes" -> "Create new custom chat mode files..." -> ".github/chatmodes/"
+
+### 使用 awesome-copilot
+- 目的：整合社群或內部彙整的 Copilot 範例與資源（例如 awesome-copilot 類型的清單），加速團隊採用與最佳化
+- 詳情請參考 [awesome-copilot-readme][awesome-copilot-readme]
+
+
 ## 資源
 
 - [GitHub Copilot 自定義的指令檔案][instruction-files]
@@ -220,3 +272,5 @@
 [games-tests]: ../server/tests/test_routes/test_games.py
 [instructions-best-practices]: https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/coding-agent/best-practices-for-using-copilot-to-work-on-tasks#adding-custom-instructions-to-your-repository
 [personal-instructions]: https://docs.github.com/en/copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot
+[awesome-copilot-readme]: https://github.com/github/awesome-copilot/blob/main/README.md
+[awesome-copilot-link]: https://github.com/github/awesome-copilot/tree/main
