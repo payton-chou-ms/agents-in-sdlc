@@ -3,6 +3,13 @@
     "github": {
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["--yes", "mcp-playwright"],
+      "env": {
+        "NODE_ENV": "development"
+      }
     }
   }
 }

@@ -15,5 +15,7 @@
     ],
     "github.copilot.nextEditSuggestions.enabled": true,
     "editor.tabSize": 4,
-    "chat.agent.enabled": true
+    "chat.agent.enabled": true,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
