@@ -6,7 +6,7 @@
 
 為了建立程式碼庫的副本，您將從[範本](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)建立一個實例。新實例將包含實驗所需的所有檔案，您將在進行練習時使用它。
 
-1. 在新的瀏覽器視窗中，導覽到這個實驗的 GitHub 程式碼庫：`https://github.com/github-samples/agents-in-sdlc`。
+1. 在新的瀏覽器視窗中，導覽到這個實驗的 GitHub 程式碼庫：`https://github.com/payton-chou-ms/agents-in-sdlc`。
 2. 透過在實驗程式碼庫頁面上選擇 **Use this template** 按鈕來建立您自己的程式碼庫副本。然後選擇 **Create a new repository**。
 
     ![Use this template button](images/use-template.png)

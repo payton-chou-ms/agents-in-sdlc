@@ -187,7 +187,7 @@
 21.  通過選擇 **Source Control** 面板中的 **+** 圖示暫存更改。
 22.  使用 **Sparkle** 按鈕生成提交訊息。
 
-    ![顯示所做更改的源代碼控制面板螢幕截圖](images/source-control-changes.png)
+![source-control-ui](./images/source-control-changes.png)
 
 23.  通過選擇 **Commit** 將更改提交到您的存儲庫。
 
