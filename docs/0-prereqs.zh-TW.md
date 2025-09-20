@@ -44,4 +44,4 @@ codespace 的建立需要幾分鐘時間，雖然這仍然比手動安裝所有�
 
 ## 下一步
 
-既然我們有幾分鐘時間，讓我們讓 Copilot 非同步為我們處理一些任務！我們可以透過[建立議題並將其分配給 Copilot 編碼代理](./1-copilot-coding-agent.md)來做到這一點。
+既然我們有幾分鐘時間，讓我們讓 Copilot 非同步為我們處理一些任務！我們可以透過[建立議題並將其分配給 Copilot 編碼代理](./1-copilot-coding-agent.zh-TW.md)來做到這一點。
