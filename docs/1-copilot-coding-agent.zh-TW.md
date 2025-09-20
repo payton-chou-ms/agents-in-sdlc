@@ -184,6 +184,21 @@ Copilot 現在正在勤奮地處理您的第二個請求！Copilot 編碼代理�
 - [將 GitHub 議題分配給 Copilot][assign-issue]
 - [Copilot 編碼代理設定工作流程最佳實務][coding-agent-best-practices]
 
+## 延伸應用
+由於有 Coding Agent, 我們可以更容易的使用 Vibe Coding, 想要快速有個想法, 可以使用以下方式
+
+透過 copilot chat的delagate coding agent, 直接在產生 UI 設計的 idea 或是一些想要驗證的小程式.
+
+Ex:
+```
+幫我產生另一個更美化版本的圖片, 參考 #tailspin-toys-screenshot.png
+```
+
+Ex:
+```
+幫我產生另一個小型程式在另一個資料夾, 想要有數獨遊戲的功能
+```
+
 ---
 
 | [← 先決條件][previous-lesson] | [下一課：MCP 伺服器 →][next-lesson] |

@@ -206,10 +206,15 @@ Tips: 可以在 GitHub Pull Requests 的界面中, 看到目前的 Pull Requests
 
 請注意，設定過程與 GitHub MCP 伺服器類似，但您不需要提供任何憑證，如 GitHub 個人存取權杖。這是因為 Playwright MCP 伺服器不需要驗證來存取其功能。
 
-### Install playwright
-- Install: 
-- Prompt: use playwright to test run
-
+### 使用 Agent mode + playwright mcp 工具去搜尋資料
+``` bash
+#playwright 幫我找 有關 github 的演講主題
+https://www.digitimes.com.tw/Seminar/DevDaysAsia2025/index.html
+```
+### 使用 Agent mode + playwright mcp 工具, 做自動化測試
+```
+#playwright to test games.spec.ts and home.spec.ts
+```
 
 ## 資源
 
