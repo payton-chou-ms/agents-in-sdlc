@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tailspin Toys – Premium Enhanced Hero</title>
+  <desc id="desc">A premium dark-mode hero interface with advanced gradients, interactive game cards, sophisticated typography, and modern visual effects.</desc>
+  <defs>
+    <!-- Premium background with advanced gradients -->
+    <linearGradient id="bgMain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1C"/>
+      <stop offset="25%" stop-color="#1A202C"/>
+      <stop offset="50%" stop-color="#2D3748"/>
+      <stop offset="75%" stop-color="#1A202C"/>
+      <stop offset="100%" stop-color="#0A0F1C"/>
+    </linearGradient>
+    
+    <!-- Enhanced glow effects -->
+    <radialGradient id="glowMain" cx="0.3" cy="0.2" r="0.8">
+      <stop stop-color="#4F46E5" stop-opacity="0.4"/>
+      <stop offset="0.4" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="0.7" stop-color="#1E40AF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#1E3A8A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSecondary" cx="0.7" cy="0.4" r="0.9">
+      <stop stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="0.3" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="0.6" stop-color="#A855F7" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#9333EA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowAccent" cx="0.5" cy="0.8" r="0.6">
+      <stop stop-color="#059669" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Premium app bar with enhanced glass morphism -->
+    <linearGradient id="appBarPremium" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF" stop-opacity="0.98"/>
+      <stop offset="50%" stop-color="#1D4ED8" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.88"/>
+    </linearGradient>
+
+    <!-- Advanced card styling -->
+    <linearGradient id="cardPremium" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D3748" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#1A202C" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#0F1419" stop-opacity="0.99"/>
+    </linearGradient>
+    <linearGradient id="cardBorderPremium" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A5568" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#2D3748" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1A202C" stop-opacity="0.2"/>
+    </linearGradient>
+    
+    <!-- Premium shadows and effects -->
+    <filter id="premiumShadow" x="-100%" y="-100%" width="300%" height="300%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#1E40AF" flood-opacity="0.15"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#3B82F6" flood-opacity="0.1"/>
+    </filter>
+    
+    <filter id="appBarPremiumShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#60A5FA" flood-opacity="0.3"/>
+    </filter>
+
+    <!-- Premium game icon gradients -->
+    <linearGradient id="iconPremium1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="iconPremium2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#9333EA"/>
+    </linearGradient>
+    <linearGradient id="iconPremium3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0E7490"/>
+    </linearGradient>
+    <linearGradient id="iconPremium4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="iconPremium5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="iconPremium6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="50%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+
+    <!-- Animated gradient for progress bars -->
+    <linearGradient id="progressGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="currentColor" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="currentColor" stop-opacity="1"/>
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Advanced typography and styling -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+      
+      .text-hero { 
+        font: 900 72px/1.05 'Inter', ui-sans-serif, system-ui; 
+        fill: #F8FAFC; 
+        letter-spacing: -0.03em; 
+        filter: url(#textGlow);
+      }
+      .text-sub { 
+        font: 500 26px/1.6 'Inter', ui-sans-serif, system-ui; 
+        fill: #CBD5E1; 
+        letter-spacing: 0.005em; 
+      }
+      .text-section { 
+        font: 800 36px/1.2 'Inter', ui-sans-serif, system-ui; 
+        fill: #E2E8F0; 
+        letter-spacing: -0.025em;
+        filter: url(#textGlow);
+      }
+      .card-title { 
+        font: 700 26px/1.3 'Inter', ui-sans-serif, system-ui; 
+        fill: #F1F5F9; 
+        letter-spacing: -0.01em;
+      }
+      .card-body { 
+        font: 400 17px/1.6 'Inter', ui-sans-serif, system-ui; 
+        fill: #94A3B8; 
+        letter-spacing: 0.002em;
+      }
+      .card-meta { 
+        font: 500 15px/1.4 'Inter', ui-sans-serif, system-ui; 
+        fill: #64748B; 
+      }
+      .badge-text { 
+        font: 600 14px/1.3 'Inter', ui-sans-serif, system-ui; 
+        fill: #CBD5E1; 
+      }
+      .link-premium { 
+        font: 600 17px/1.4 'Inter', ui-sans-serif, system-ui; 
+        fill: #60A5FA; 
+        filter: url(#textGlow);
+      }
+      .brand { 
+        font: 700 22px/1 'Inter', ui-sans-serif, system-ui; 
+        fill: #FFFFFF; 
+        letter-spacing: -0.015em; 
+      }
+      .progress-text {
+        font: 600 14px/1.3 'Inter', ui-sans-serif, system-ui;
+        fill: #94A3B8;
+      }
+    </style>
+  </defs>
+
+  <!-- Premium background layers -->
+  <rect width="1440" height="900" fill="url(#bgMain)"/>
+  <rect width="1440" height="900" fill="url(#glowMain)"/>
+  <rect width="1440" height="900" fill="url(#glowSecondary)"/>
+  <rect width="1440" height="900" fill="url(#glowAccent)"/>
+  
+  <!-- Enhanced grid pattern -->
+  <defs>
+    <pattern id="gridPremium" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#374151" stroke-width="0.5" opacity="0.08"/>
+      <circle cx="0" cy="0" r="1" fill="#475569" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="900" fill="url(#gridPremium)"/>
+
+  <!-- Premium App Bar -->
+  <g filter="url(#appBarPremiumShadow)">
+    <rect width="1440" height="88" fill="url(#appBarPremium)"/>
+    <rect y="87" width="1440" height="1" fill="url(#iconPremium1)" opacity="0.4"/>
+    
+    <!-- Enhanced hamburger menu -->
+    <g transform="translate(36, 34)">
+      <g stroke="#E5E7EB" stroke-width="2.5" stroke-linecap="round">
+        <line x1="0" y1="4" x2="24" y2="4"/>
+        <line x1="0" y1="12" x2="24" y2="12"/>
+        <line x1="0" y1="20" x2="24" y2="20"/>
+      </g>
+    </g>
+    
+    <!-- Enhanced brand -->
+    <text class="brand" x="80" y="54">Tailspin Toys</text>
+    
+    <!-- Status indicator -->
+    <g transform="translate(1320, 34)">
+      <circle r="6" fill="#10B981" opacity="0.9"/>
+      <circle r="3" fill="#FFFFFF"/>
+      <circle r="8" fill="none" stroke="#10B981" stroke-width="1" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- Enhanced Hero Section -->
+  <g transform="translate(80, 150)">
+    <text class="text-hero">Welcome to Tailspin Toys</text>
+    <text class="text-sub" x="0" y="100">Discover, back, and play the next generation of developer-themed games!</text>
+    <text class="text-sub" x="0" y="142">Join our community of creators and gamers building the future of interactive entertainment.</text>
+  </g>
+
+  <!-- Enhanced stats badges -->
+  <g transform="translate(80, 340)">
+    <g>
+      <rect width="150" height="44" rx="22" fill="url(#cardPremium)" stroke="url(#iconPremium1)" stroke-opacity="0.4"/>
+      <text class="badge-text" x="24" y="30">🎮 42 Games</text>
+    </g>
+    <g transform="translate(170, 0)">
+      <rect width="170" height="44" rx="22" fill="url(#cardPremium)" stroke="url(#iconPremium5)" stroke-opacity="0.4"/>
+      <text class="badge-text" x="24" y="30">💰 $2.1M Funded</text>
+    </g>
+    <g transform="translate(360, 0)">
+      <rect width="160" height="44" rx="22" fill="url(#cardPremium)" stroke="url(#iconPremium3)" stroke-opacity="0.4"/>
+      <text class="badge-text" x="24" y="30">👥 8.5K Backers</text>
+    </g>
+  </g>
+
+  <!-- Featured Games Section with enhanced spacing -->
+  <text class="text-section" x="80" y="440">Featured Games</text>
+
+  <!-- Premium Enhanced Cards Grid -->
+  <g transform="translate(80, 480)">
+    <!-- Row 1 with enhanced cards -->
+    <!-- Card 1: DevOps Dominion -->
+    <g filter="url(#premiumShadow)">
+      <rect width="400" height="220" rx="24" fill="url(#cardPremium)" stroke="url(#cardBorderPremium)"/>
+      <!-- Enhanced game thumbnail -->
+      <g transform="translate(24, 24)">
+        <rect width="68" height="68" rx="16" fill="url(#iconPremium1)"/>
+        <rect width="68" height="68" rx="16" fill="none" stroke="url(#iconPremium1)" stroke-width="1" opacity="0.3"/>
+        <g transform="translate(34, 34)" fill="white" opacity="0.95">
+          <!-- Enhanced DevOps icon -->
+          <circle r="10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M-7,-7 L7,7 M7,-7 L-7,7" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="0" cy="0" r="3" fill="currentColor"/>
+        </g>
+        <!-- Enhanced content -->
+        <g transform="translate(88, 4)">
+          <text class="card-title">DevOps Dominion</text>
+          <text class="card-meta" y="32">Strategy • Multiplayer • ⭐ 4.8</text>
+          <text class="card-body" y="60" dy="0">Master continuous deployment in this strategic</text>
+          <text class="card-body" y="60" dy="22">board game where pipeline optimization</text>
+          <text class="card-body" y="60" dy="44">determines victory.</text>
+        </g>
+        <!-- Enhanced progress visualization -->
+        <g transform="translate(0, 152)">
+          <rect width="352" height="6" rx="3" fill="#1F2937"/>
+          <rect width="275" height="6" rx="3" fill="url(#iconPremium1)"/>
+          <circle cx="275" cy="3" r="4" fill="url(#iconPremium1)"/>
+          <text class="progress-text" x="0" y="26">$89K raised • 78% funded • 24 days left</text>
+        </g>
+        <!-- Enhanced action -->
+        <g transform="translate(0, 186)">
+          <text class="link-premium">Back this project →</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 2: Pipeline Conquest -->
+    <g transform="translate(420, 0)" filter="url(#premiumShadow)">
+      <rect width="400" height="220" rx="24" fill="url(#cardPremium)" stroke="url(#cardBorderPremium)"/>
+      <g transform="translate(24, 24)">
+        <rect width="68" height="68" rx="16" fill="url(#iconPremium2)"/>
+        <rect width="68" height="68" rx="16" fill="none" stroke="url(#iconPremium2)" stroke-width="1" opacity="0.3"/>
+        <g transform="translate(34, 34)" fill="white" opacity="0.95">
+          <!-- Enhanced Pipeline icon -->
+          <rect x="-10" y="-3" width="20" height="6" rx="3"/>
+          <circle cx="12" cy="0" r="6" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M18,0 L24,0" stroke="currentColor" stroke-width="2.5"/>
+        </g>
+        <g transform="translate(88, 4)">
+          <text class="card-title">Pipeline Conquest</text>
+          <text class="card-meta" y="32">Puzzle • Solo • ⭐ 4.6</text>
+          <text class="card-body" y="60" dy="0">Optimize CI/CD workflows in challenging</text>
+          <text class="card-body" y="60" dy="22">scenarios. Every merge matters in this</text>
+          <text class="card-body" y="60" dy="44">brain-bending puzzle adventure.</text>
+        </g>
+        <g transform="translate(0, 152)">
+          <rect width="352" height="6" rx="3" fill="#1F2937"/>
+          <rect width="215" height="6" rx="3" fill="url(#iconPremium2)"/>
+          <circle cx="215" cy="3" r="4" fill="url(#iconPremium2)"/>
+          <text class="progress-text" x="0" y="26">$63K raised • 61% funded • 18 days left</text>
+        </g>
+        <g transform="translate(0, 186)">
+          <text class="link-premium">Back this project →</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 3: Server Siege -->
+    <g transform="translate(840, 0)" filter="url(#premiumShadow)">
+      <rect width="400" height="220" rx="24" fill="url(#cardPremium)" stroke="url(#cardBorderPremium)"/>
+      <g transform="translate(24, 24)">
+        <rect width="68" height="68" rx="16" fill="url(#iconPremium3)"/>
+        <rect width="68" height="68" rx="16" fill="none" stroke="url(#iconPremium3)" stroke-width="1" opacity="0.3"/>
+        <g transform="translate(34, 34)" fill="white" opacity="0.95">
+          <!-- Enhanced Server icon -->
+          <rect x="-8" y="-12" width="16" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="0" cy="-6" r="2.5" fill="currentColor"/>
+          <circle cx="0" cy="0" r="2.5" fill="currentColor"/>
+          <circle cx="0" cy="6" r="2.5" fill="currentColor"/>
+        </g>
+        <g transform="translate(88, 4)">
+          <text class="card-title">Server Siege</text>
+          <text class="card-meta" y="32">Defense • Co-op • ⭐ 4.9</text>
+          <text class="card-body" y="60" dy="0">Defend your infrastructure against waves</text>
+          <text class="card-body" y="60" dy="22">of cyber threats. Team up to secure the</text>
+          <text class="card-body" y="60" dy="44">digital fortress and save the day.</text>
+        </g>
+        <g transform="translate(0, 152)">
+          <rect width="352" height="6" rx="3" fill="#1F2937"/>
+          <rect width="331" height="6" rx="3" fill="url(#iconPremium3)"/>
+          <circle cx="331" cy="3" r="4" fill="url(#iconPremium3)"/>
+          <text class="progress-text" x="0" y="26">$127K raised • 94% funded • 6 days left</text>
+        </g>
+        <g transform="translate(0, 186)">
+          <text class="link-premium">Back this project →</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <!-- Card 4: Repo Rulers -->
+    <g transform="translate(0, 250)" filter="url(#premiumShadow)">
+      <rect width="400" height="220" rx="24" fill="url(#cardPremium)" stroke="url(#cardBorderPremium)"/>
+      <g transform="translate(24, 24)">
+        <rect width="68" height="68" rx="16" fill="url(#iconPremium4)"/>
+        <rect width="68" height="68" rx="16" fill="none" stroke="url(#iconPremium4)" stroke-width="1" opacity="0.3"/>
+        <g transform="translate(34, 34)" fill="white" opacity="0.95">
+          <!-- Enhanced Git icon -->
+          <circle r="8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="-16" cy="0" r="5" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="16" cy="0" r="5" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M-11,0 L11,0" stroke="currentColor" stroke-width="2.5"/>
+        </g>
+        <g transform="translate(88, 4)">
+          <text class="card-title">Repo Rulers</text>
+          <text class="card-meta" y="32">Management • 2-4 Players • ⭐ 4.7</text>
+          <text class="card-body" y="60" dy="0">Command your version control empire.</text>
+          <text class="card-body" y="60" dy="22">Merge, branch, and deploy your way to</text>
+          <text class="card-body" y="60" dy="44">repository supremacy.</text>
+        </g>
+        <g transform="translate(0, 152)">
+          <rect width="352" height="6" rx="3" fill="#1F2937"/>
+          <rect width="176" height="6" rx="3" fill="url(#iconPremium4)"/>
+          <circle cx="176" cy="3" r="4" fill="url(#iconPremium4)"/>
+          <text class="progress-text" x="0" y="26">$45K raised • 50% funded • 32 days left</text>
+        </g>
+        <g transform="translate(0, 186)">
+          <text class="link-premium">Back this project →</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 5: Code Puzzle Chronicles -->
+    <g transform="translate(420, 250)" filter="url(#premiumShadow)">
+      <rect width="400" height="220" rx="24" fill="url(#cardPremium)" stroke="url(#cardBorderPremium)"/>
+      <g transform="translate(24, 24)">
+        <rect width="68" height="68" rx="16" fill="url(#iconPremium5)"/>
+        <rect width="68" height="68" rx="16" fill="none" stroke="url(#iconPremium5)" stroke-width="1" opacity="0.3"/>
+        <g transform="translate(34, 34)" fill="white" opacity="0.95">
+          <!-- Enhanced Code icon -->
+          <path d="M-12,-6 L-6,0 L-12,6" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M12,-6 L6,0 L12,6" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="0" cy="0" r="3" fill="currentColor"/>
+          <path d="M-3,-8 L3,8" stroke="currentColor" stroke-width="2"/>
+        </g>
+        <g transform="translate(88, 4)">
+          <text class="card-title">Code Puzzle Chronicles</text>
+          <text class="card-meta" y="32">Puzzle • Single Player • ⭐ 4.5</text>
+          <text class="card-body" y="60" dy="0">Unravel algorithmic mysteries through</text>
+          <text class="card-body" y="60" dy="22">beautiful, brain-teasing challenges.</text>
+          <text class="card-body" y="60" dy="44">Logic meets artistry in every level.</text>
+        </g>
+        <g transform="translate(0, 152)">
+          <rect width="352" height="6" rx="3" fill="#1F2937"/>
+          <rect width="303" height="6" rx="3" fill="url(#iconPremium5)"/>
+          <circle cx="303" cy="3" r="4" fill="url(#iconPremium5)"/>
+          <text class="progress-text" x="0" y="26">$72K raised • 86% funded • 12 days left</text>
+        </g>
+        <g transform="translate(0, 186)">
+          <text class="link-premium">Back this project →</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 6: Merge Conflict Mystery -->
+    <g transform="translate(840, 250)" filter="url(#premiumShadow)">
+      <rect width="400" height="220" rx="24" fill="url(#cardPremium)" stroke="url(#cardBorderPremium)"/>
+      <g transform="translate(24, 24)">
+        <rect width="68" height="68" rx="16" fill="url(#iconPremium6)"/>
+        <rect width="68" height="68" rx="16" fill="none" stroke="url(#iconPremium6)" stroke-width="1" opacity="0.3"/>
+        <g transform="translate(34, 34)" fill="white" opacity="0.95">
+          <!-- Enhanced Merge icon -->
+          <path d="M-12,-12 L0,0 L12,-12" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M-12,12 L0,0 L12,12" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="0" cy="0" r="4" fill="currentColor"/>
+          <circle cx="0" cy="-12" r="2" fill="currentColor"/>
+          <circle cx="0" cy="12" r="2" fill="currentColor"/>
+        </g>
+        <g transform="translate(88, 4)">
+          <text class="card-title">Merge Conflict Mystery</text>
+          <text class="card-meta" y="32">Mystery • Co-op • ⭐ 4.8</text>
+          <text class="card-body" y="60" dy="0">Navigate treacherous code merges in</text>
+          <text class="card-body" y="60" dy="22">this cooperative mystery. Every line</text>
+          <text class="card-body" y="60" dy="44">of code holds a clue to the solution.</text>
+        </g>
+        <g transform="translate(0, 152)">
+          <rect width="352" height="6" rx="3" fill="#1F2937"/>
+          <rect width="285" height="6" rx="3" fill="url(#iconPremium6)"/>
+          <circle cx="285" cy="3" r="4" fill="url(#iconPremium6)"/>
+          <text class="progress-text" x="0" y="26">$98K raised • 81% funded • 15 days left</text>
+        </g>
+        <g transform="translate(0, 186)">
+          <text class="link-premium">Back this project →</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Premium bottom accent with animated glow -->
+  <rect x="0" y="860" width="1440" height="40" fill="url(#glowAccent)" opacity="0.4"/>
+  
+</svg>
