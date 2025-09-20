@@ -64,7 +64,16 @@
 - 以 Tag + Release Note 紀錄重要變更
 - 可整合自動產生變更日誌（從 PR 標籤或類別）
 
-## 8 資源
+## 建議的導入順序
+
+1. 先完成 CI（建置/測試/靜態檢查）
+2. 加入 CodeQL 與 Dependabot
+3. 導入 CD（Dev 自動、Test/Prod 審批）
+4. 啟用 Pages 發佈文件
+5. 使用 Projects/Insights 追蹤進度與品質
+
+
+## 資源
 
 - GitHub Actions（CI/CD）
 - GitHub Environments & Approvals

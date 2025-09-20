@@ -1,7 +1,7 @@
 # 練習 5：審查 GitHub Copilot 編碼代理的工作
 
-| [← 使用 Copilot 代理模式添加新功能][previous-lesson] |
-|:----:|
+| [← 使用 Copilot 代理模式添加新功能][previous-lesson] | [下一課：使用 Spec-kit 與 Copilot Coding Agent →][next-lesson] |
+|:--|--:|
 
 當我們第一次開始這個實驗時，我們分配了幾個議題給 GitHub Copilot 編碼代理。我們要求它為我們的程式碼添加文件，並生成一些端點供其他團隊進行迭代。讓我們探索它建議的程式碼變更，並在必要時向 Copilot 提供反饋以改善其工作。
 
@@ -122,8 +122,8 @@ Copilot 已建立了新端點！就像之前一樣，您可以與 Copilot 編碼
 
 ---
 
-| [← 使用 Copilot 代理模式添加新功能][previous-lesson] |
-|:----:|
+| [← 使用 Copilot 代理模式添加新功能][previous-lesson] | [下一課：使用 Spec-kit 與 Copilot Coding Agent →][next-lesson] |
+|:--|--:|
 
 [github-copilot]: https://github.com/features/copilot
 [coding-agent-overview]: https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot#overview-of-copilot-coding-agent
@@ -134,3 +134,4 @@ Copilot 已建立了新端點！就像之前一樣，您可以與 Copilot 編碼
 [agent-firewall]: https://docs.github.com/en/copilot/customizing-copilot/customizing-or-disabling-the-firewall-for-copilot-coding-agent
 
 [previous-lesson]: ./4-copilot-agent-mode-vscode.zh-TW.md
+[next-lesson]: ./6-using-spec-kit-with-coding-agent.zh-TW.md
