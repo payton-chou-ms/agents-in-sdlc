@@ -25,8 +25,7 @@ pip install -r server/requirements.txt
 
 echo "Installing client dependencies..."
 cd client || exit 1
-npm install
-npm install -D mcp-playwright
+npm ci
 # Ensure 'uv' (from https://astral.sh/uv) is installed; idempotent.
 echo "Checking for 'uv' tool..."
 if command -v uv >/dev/null 2>&1; then
