@@ -6,7 +6,7 @@
     },
     "playwright": {
       "command": "npx",
-      "args": ["mcp-playwright"],
+      "args": ["--yes", "mcp-playwright"],
       "env": {
         "NODE_ENV": "development"
       }
